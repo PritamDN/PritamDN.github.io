@@ -2,20 +2,19 @@ body{
 	background-color: #fbfbfb;  
   margin: 0px;
   display: flex; 
-}
-
-p{
+  font-family: 'Source Serif Pro', serif;
   font-size: 18px;
   color: rgb(50, 50, 50);
 }
 
 p.hi{
-  font-size: 24px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 a{
   text-decoration: none;
-  color: #0d6dd8;
+  color: #03a9f4;
 }
 
 .half {
@@ -25,7 +24,7 @@ a{
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 20px;
+  /*padding-top: 20px;*/
 }
 
 .left {
@@ -57,15 +56,11 @@ a{
 }
 
 h1{
-    font-size: 72px;
-    margin: 5px;
-    color: #ffffff;
-    padding: 16px;
-    padding-left: 46px;
-    background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);    background-size: 400% 400%;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;  
+    font-size: 82px;
+     margin: 0;
+     font-weight: 700;
+     font-family: 'Playfair Display', serif;
+      
 }
 
 .left {
@@ -137,10 +132,20 @@ h1{
     to   { -webkit-transform: translate3d(0, 100px, 0); transform: translate3d(0, 200px, 0); }
   }
 
-@media screen and (max-width: 650px) {
+
+  @media screen and (max-width: 700px) {
     .half {
       height: 100%;
       width: 100%;
+      
     }
+    h1{
+      color: #03a9f4; 
+    }
+  }
 
+    @media screen and (max-width: 900px) {
+    .centered img{
+      width: 290px;
+    }
   }
