@@ -1,15 +1,5 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Pritam Debnath</title>
-</head>
-<body>
-  <h1>Pritam Debnath</h1>
-<a href="https://pritamdebnath.com">Link</a>
-</body>
-</html>
+My Name is Pritam debnath. 
+And this repo is for my online resume hosted on Github Pages.
 
 
 
