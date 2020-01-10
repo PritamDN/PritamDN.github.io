@@ -1,57 +1,244 @@
-<!--==================================================
-
-    Here are my contact details
-
-    Email : pritamdebnath72@gmail.com
-    Phone : +91 8787795547
-
-===================================================-->
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="landing.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap" rel="stylesheet">
-    <title>Pritam Debnath needs a Job</title>
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Pritam Debnath - Programmer and Web Developer</title>
 </head>
 
 <body>
-    <div id="whole">
-        <div class="half left">
-            <div class="centered animated">
-                <img src="pritam.png" alt="Pritam Debnath">
+
+    <header>
+
+        <div class="container">
+            <div class="row py-5">
+
+                <div class="col-lg-6 col-md-6 col-sm-12 cl-xs-12">
+                    <img src="portfolio-header.svg" alt="" class="img-fluid mb-4 shaking">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 cl-xs-12">
+                    <h4 class="hi mt-4 text-dark">Hello World!</h4>
+                    <h1 class="display-4 text-dark">I'm Pritam.</h1><br>
+                    <p class="lead text-dark">Hey there! I am Pritam Debnath, a Computer Science Engineer, a diligent
+                        Programmer and an enthusiastic Web Developer.</p>
+
+                    <p class="lead text-dark">I have a keen interest in Web Development, Search Engine Optimization,
+                        and I like to believe I have an eye for Design.</p>
+
+                    <p class="lead text-dark">Currently, building a Django eCommerce Site.</p><br>
+
+                    <a href="mailto:pritamdebnath72@gmail.com" class="btn btn-large btn-dark mr-3 square">Mail Me</a>
+                    <a href="https://pritamdn.github.io/Pritam Debnath - Fresher - CV.pdf" target="_blank"
+                        class="btn btn-large btn-dark square">Download CV</a>
+
+                </div>
+
             </div>
-            <!--.centered .animated-->
         </div>
-        <!--.half .left-->
-        <div class="half right">
-            <div class="rightbox">
-                <p class="hi">Hi, I Am</p>
-                <h1>Pritam.</h1>
-                <p>I am a Computer Science Engineer, a programmer and a web developer. Download my
-                    CV <a href="./Pritam Debnath - Fresher - CV.pdf" target="_blank">here</a>.</p>
 
-                <p>Actively looking for a job as a fresher in IT sector. I am a quick learner, up for relocation,
-                    adaptive to situations and I excel under pressure.</p>
+    </header>
+    <!--Header Section-->
 
-                <p>Some Work Samples : <a href="https://pritamdn.github.io/handcrafx" target="_blank">Sample 1</a> , <a
-                        href="https://pritamdn.github.io/healthclinix" target="_blank">Sample 2</a> , <a
-                        href="https://pritamdn.github.io/purebootstrap4" target="_blank">Sample 3</a> and
-                    <a href="http://favouriteones.pythonanywhere.com" target="_blank">Sample 4 (Django)</a>.</p>
 
-                <p>Contacts : <a href="https://linkedin.com/in/pritam-debnath/" target="_blank">LinkedIN</a> and in the
-                    source code :)</p>
+
+
+    <section id="projects-head-section" class="bg-light bg-muted pt-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-dark">My Projects</h1><br>
+                    <!-- <p class="lead">Thses are some of the projects I have done.</p> -->
+                </div>
             </div>
-            <!--.rightbox-->
         </div>
-        <!--.half .right-->
-    </div>
+    </section>
+    <!--Project Head Section-->
+
+    <section id="projects-section" class="bg-light bg-muted py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-xs-12 text-center py-3">
+                    <div class="card custom-card">
+                        <img class="card-img-top" src="feedback.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Student Feedback System</h5>
+                            <p>
+                                <span class="badge badge-pill badge-info feedback">Fullstack</span>
+                                <span class="badge badge-pill badge-info feedback">PHP</span>
+                                <span class="badge badge-pill badge-info feedback">MySQL</span>
+                                <span class="badge badge-pill badge-info feedback">HTML</span>
+                                <span class="badge badge-pill badge-info feedback">CSS</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-xs-12 text-center py-3">
+                    <div class="card custom-card">
+                        <img class="card-img-top" src="django.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Django Blog Application</h5>
+                            <p>
+                                <span class="badge badge-pill badge-danger django">Fullstack</span>
+                                <span class="badge badge-pill badge-danger django">Python</span>
+                                <span class="badge badge-pill badge-danger django">Django</span>
+                                <span class="badge badge-pill badge-danger django">Bootstrap 4</span>
+                                <span class="badge badge-pill badge-danger django">HTML</span>
+                                <span class="badge badge-pill badge-danger django">CSS</span>
+                            </p>
+                            <hr>
+                            <a href="https://favouriteones.pythonanywhere.com" class="btn django" target="_blank">Visit
+                                Site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-xs-12 text-center py-3">
+                    <div class="card custom-card">
+                        <img class="card-img-top" src="healthclinix.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Demo HealthClinix Frontend</h5>
+                            <p>
+                                <span class="badge badge-pill badge-danger healthclinix">Frontend Only</span>
+                                <span class="badge badge-pill badge-danger healthclinix">Bootstrap 4</span>
+                                <span class="badge badge-pill badge-danger healthclinix">HTML</span>
+                                <span class="badge badge-pill badge-danger healthclinix">CSS</span>
+                            </p>
+                            <hr>
+                            <a href="https://pritamdn.github.io/healthclinix/" target="_blank"
+                                class="btn healthclinix">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row py-4">
+
+                <div class="col-lg-4 col-md-4 col-xs-12 text-center py-3">
+                    <div class="card custom-card">
+                        <img class="card-img-top" src="dashboard.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Admin Dashboard Panel</h5>
+                            <p>
+                                <span class="badge badge-pill badge-danger dashboard">Frontend Only</span>
+                                <span class="badge badge-pill badge-danger dashboard">Bootstrap 4</span>
+                                <span class="badge badge-pill badge-danger dashboard">HTML</span>
+                                <span class="badge badge-pill badge-danger dashboard">CSS</span>
+                            </p>
+                            <hr>
+                            <a href="https://pritamdn.github.io/handcrafx/" target="_blank" class="btn dashboard">Visit
+                                Site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-xs-12 text-center py-3">
+                    <div class="card custom-card">
+                        <img class="card-img-top" src="dreamestate.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Django Property Rental</h5>
+                            <p>
+                                <span class="badge badge-pill badge-primary dreamestate">Fullstack</span>
+                                <span class="badge badge-pill badge-primary dreamestate">Python</span>
+                                <span class="badge badge-pill badge-primary dreamestate">Django</span>
+                                <span class="badge badge-pill badge-primary dreamestate">Bootstrap 4</span>
+                                <span class="badge badge-pill badge-primary dreamestate">HTML</span>
+                                <span class="badge badge-pill badge-primary dreamestate">CSS</span>
+                            </p>
+                            <hr>
+                            <p><span class="badge badge-pill badge-primary dreamestate">Soon To Be Hosted</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-xs-12 text-center py-3">
+                    <div class="card custom-card">
+                        <img class="card-img-top" src="purebootstrap4.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Pure Bootstrap 4 Template</h5>
+                            <p>
+                                <span class="badge badge-pill badge-info">Frontend Only</span>
+                                <span class="badge badge-pill badge-info">Bootstrap 4</span>
+                                <span class="badge badge-pill badge-info">HTML</span>
+                                <span class="badge badge-pill badge-info">CSS</span>
+                            </p>
+                            <hr>
+                            <a href="https://pritamdn.github.io/purebootstrap4/" target="_blank"
+                                class="btn btn-info info-custom">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row py-4">
+
+                <div class="col-lg-4 col-md-4 col-xs-12 text-center py-3">
+                    <div class="card custom-card">
+                        <img class="card-img-top" src="jessica.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Simple Resume Template</h5>
+                            <p>
+                                <span class="badge badge-pill badge-info jessica">Frontend Only</span>
+                                <span class="badge badge-pill badge-info jessica">HTML</span>
+                                <span class="badge badge-pill badge-info jessica">CSS</span>
+                                <span class="badge badge-pill badge-info jessica">Illustration</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about-section" class="py-5">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <h1 class="display-4 text-dark">About Me</h1><br>
+                    <p class="text-dark">Myself Pritam Debnath. I am a Computer Science Engineer from Tripura, one of
+                        the seven sisters of North-East India.</p>
+
+                    <p class="text-dark">I did my B.Tech at ICFAI University, Tripura and graduated in 2019 with a
+                        percentage of 76.8. During my graduation, I have done two Internships and two Projects.</p>
+
+                    <p class="text-dark">When not coding, I unwind by listening to music, watching cricket matches,
+                        playing badminton, cricket and reading blogs. I also love watching documentaries on topics of
+                        AI, Cyber Security, Economy and, Nature.</p>
+
+                    <p class="">I am actively looking for a job. I am a quick learner and can handle the pressure.</p>
+
+                    <a href="https://www.linkedin.com/in/pritam-debnath/" target="_blank"
+                        class="btn btn-large btn-dark mr-3 square">LinkedIN</a>
+                    <button class="btn btn-large btn-dark square">(+91) 8787795547</button>
+                </div>
+
+
+                <div class="col-md-6">
+                    <img src="almost-final.svg" alt="" class="img-fluid mb-4 shaking">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section-->
+
 </body>
 
 </html>
